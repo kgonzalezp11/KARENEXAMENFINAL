@@ -1,0 +1,51 @@
+﻿@model FINAL.CATEDRATICO
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CATEDRATICO</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre_Catedratico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre_Catedratico)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Apellido_Catedratico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Apellido_Catedratico)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefono_Catedratico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefono_Catedratico)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Estado_Catedratico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Estado_Catedratico)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID_Catedratico }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

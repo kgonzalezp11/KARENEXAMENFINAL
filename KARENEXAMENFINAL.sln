@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KARENEXAMENFINAL", "KARENEXAMENFINAL\KARENEXAMENFINAL.csproj", "{191C6050-DC9B-49B1-8569-2E3B0D179154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FINAL", "FINAL\FINAL.csproj", "{7D44569E-006F-41DA-BAED-ED06571401B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{191C6050-DC9B-49B1-8569-2E3B0D179154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{191C6050-DC9B-49B1-8569-2E3B0D179154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{191C6050-DC9B-49B1-8569-2E3B0D179154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{191C6050-DC9B-49B1-8569-2E3B0D179154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D44569E-006F-41DA-BAED-ED06571401B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D44569E-006F-41DA-BAED-ED06571401B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D44569E-006F-41DA-BAED-ED06571401B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D44569E-006F-41DA-BAED-ED06571401B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {403BE5CB-6319-4EAC-B046-C4AB9004CC6D}
+	EndGlobalSection
+EndGlobal
